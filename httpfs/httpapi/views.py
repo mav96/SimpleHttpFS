@@ -83,7 +83,7 @@ class FileRemove(FilesView):
         try:
             meta = self.get_meta(filename)
             os.remove(meta['path'])
-            return Response(status.HTTP_202_ACCEPTED)
+            return Response(meta, status.HTTP_202_ACCEPTED)
         except Exception as error:
             return Response(status.HTTP_404_NOT_FOUND)
 
