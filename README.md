@@ -11,9 +11,9 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-# Testing our API
+# Testing http API
 
-We can now access our API using the httpie, command line tool...
+We can now access to remote FS using the httpie command line tool...
 
 - **/get** Downloads a file:
 ```
