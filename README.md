@@ -1,6 +1,10 @@
 # SimpleHttpFS
 A simple http API for remote FS
 
+## Docs:
+[Task](https://docs.google.com/document/d/1-fYdHDh9u87tMa395H2RbBq2bXFTi63irFiN0izc9Ug/edit?usp=sharing)
+
+
 # Quickstart
 ```
 git clone https://github.com/mav96/SimpleHttpFS.git
